@@ -1,11 +1,189 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <source src="styles.css" type="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+    <style>
+      h1 {
+        color: white;
+        font-size: 70px;
+        font-family: 'alfa slab one';
+      }
+      h2 {
+        color: white;
+        font-family: 'muli';
+      }
+      p {
+        color: white;
+        font-family: 'muli';
+      }
+      .container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+      }
+      .container a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+      }
+      .container a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      .show {
+        display: block;
+      }
+    </style>
   </head>
-  <body style="background-image:url('food-background.jpg')">
-    <h1>Food Is Life</h1>
-    <img src="https://cdn-ap-cf.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~13.1b/var/fiam/storage/images/recipes/cheesy-corn-and-bacon-scones/7714551-9-eng-US/Cheesy-Corn-and-Bacon-Scones_homepagesliderimage.jpg?yocs=5_&amp;yoloc=ap" style="" alt="Cheesy Corn and Bacon Scones" title="Cheesy Corn and Bacon Scones" class="img-responsive" itemprop="photo" data-yo-delaytype="lazy" data-yo-src="https://cdn-ap-cf.yottaa.net/57eaa34c2bb0ac1299000018/www.foodinaminute.co.nz/v~13.1b/var/fiam/storage/images/recipes/cheesy-corn-and-bacon-scones/7714551-9-eng-US/Cheesy-Corn-and-Bacon-Scones_homepagesliderimage.jpg?yocs=5_&amp;yoloc=ap" data-yo-loaded="true">
+  <body style="background-color:#F15025">
+    <h1 align="center">Food Is Life</h1>
+    <h2 align="center">Delicious recipes for everyone!</h2>
+    <p align="center">Welcome to our cooking website, Food Is Life.</p>
+<div class="container">
+  <a href="#home">Home</a>
+  <a href="#news">About</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Breakfast</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Lunch</button>
+    <div class="dropdown-content" id="myDropdown1">
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+      <a href="#">Link 6</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Dinner</button>
+    <div class="dropdown-content" id="myDropdown2">
+      <a href="#">Link 7</a>
+      <a href="#">Link 8</a>
+      <a href="#">Link 9</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Baking</button>
+    <div class="dropdown-content" id="myDropdown3">
+      <a href="#">Link 10</a>
+      <a href="#">Link 11</a>
+      <a href="#">Link 12</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Snacks</button>
+    <div class="dropdown-content" id="myDropdown4">
+      <a href="#">Link 13</a>
+      <a href="#">Link 14</a>
+      <a href="#">Link 15</a>
+    </div>
+  </div>
+  <a href="#news">Contact</a>
+</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown1");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown2");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown3").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown3");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown4").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown4");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
   </body>
-
 </html>
