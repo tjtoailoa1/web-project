@@ -3,3 +3,13 @@ h1{
   font-size: 200%;
   color: white;
 }
+head{
+  font-family:courier;
+  font-size:125%
+  color:#6B0504
+}
+body{
+  font-family: courier;
+  font-size: 50%;
+  color:black;
+}
