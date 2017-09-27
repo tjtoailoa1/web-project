@@ -46,6 +46,7 @@ head {
 body {
   font-family: courier;
   color:black;
+  text-align: center;
 }
 #Snack-Header,
 #Lunch-Header{
