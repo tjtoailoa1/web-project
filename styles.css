@@ -1,8 +1,38 @@
-html{
-margin-left: auto;
-margin-right:auto;
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: 'alfa slab one';
 }
 
-h1{
-text-align:center;
+h2 {
+  color: white;
+  font-family: 'varela round';
+}
+
+p {
+  color: white;
+  font-family: 'varela round';
+}
+
+.container {
+overflow: hidden;
+background-color: #333;
+font-family: 'bree serif';
+}
+
+.container a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.show {
+  display: block;
 }
