@@ -66,5 +66,6 @@ Lunch-p {
 .titles {
   align: center;
   font-size: 70px;
-  font-family: 'alfa slab one'
+  font-family: 'alfa slab one';
+  color: white;
 }
