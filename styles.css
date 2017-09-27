@@ -64,5 +64,9 @@ Lunch-p{
   background-color: #F15025;
   margin: 0 auto;
   width: 700px;
-  height: 100vh
+  height: 100vh;
+}
+
+.longpage{
+  height: 100%;
 }
