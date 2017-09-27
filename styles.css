@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 head {
   font-family:courier;
   font-size:125%
@@ -8,21 +7,7 @@ body {
   font-family: courier;
   color:black;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 #home {
-=======
-
-#indexheading {
->>>>>>> origin/master
-=======
-#Lunch-Header {
-  font-family: 'Karla', sans-serif;
-}
-=======
->>>>>>> origin/master
-h1 {
->>>>>>> origin/master
   color: white;
   font-size: 70px;
   font-family: 'alfa slab one';
@@ -60,7 +45,6 @@ font-family: 'bree serif';
 .show {
   display: block;
 }
-<<<<<<< HEAD
 
 #Snack-Header,
 #Lunch-Header{
@@ -76,5 +60,3 @@ Snack-p,
 Lunch-p{
   font-size: 20px;
 }
-=======
->>>>>>> origin/master
