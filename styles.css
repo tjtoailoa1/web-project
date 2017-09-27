@@ -15,9 +15,13 @@ p {
 }
 
 .container {
-overflow: hidden;
-background-color: #333;
-font-family: 'bree serif';
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'bree serif';
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  top: 0;
 }
 
 .container a {
@@ -47,4 +51,18 @@ body {
   font-family: 'muli';
   color:white;
   text-align: center;
+  background-image: url("images/food-background1.jpg");
+  background-size: cover;
+}
+
+Snack-p,
+Lunch-p{
+  font-size: 20px;
+}
+
+.whiteContainer {
+  background-color: #F15025;
+  margin: 0 auto;
+  width: 700px;
+  height: 100vh
 }
