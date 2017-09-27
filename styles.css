@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
   color: white;
   font-size: 70px;
@@ -35,4 +36,67 @@ font-family: 'bree serif';
 
 .show {
   display: block;
+=======
+head {
+  font-family:courier;
+  font-size:125%
+  color:#6B0504
+}
+body {
+  font-family: courier;
+  color:black;
+}
+#home {
+  color: white;
+  font-size: 70px;
+  font-family: 'alfa slab one';
+}
+
+h2 {
+  color: white;
+  font-family: 'varela round';
+}
+
+p {
+  color: white;
+  font-family: 'varela round';
+}
+
+.container {
+overflow: hidden;
+background-color: #333;
+font-family: 'bree serif';
+}
+
+.container a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.show {
+  display: block;
+}
+
+#Snack-Header,
+#Lunch-Header{
+  font-size: 100px;
+}
+
+#Snack-h2,
+#Lunch-h2{
+  font-size: 25px;
+}
+
+Snack-p,
+Lunch-p{
+  font-size: 20px;
+>>>>>>> 0469cc553b0df2f1a85cb3ab46208cd40b2a7b70
 }
