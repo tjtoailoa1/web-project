@@ -48,8 +48,8 @@ head {
 }
 
 body {
-  font-family: courier;
-  color:black;
+  font-family: 'muli';
+  color:white;
   text-align: center;
   background-image: url("images/food-background1.jpg");
   background-size: cover;
