@@ -1,4 +1,4 @@
-h1{
+h1 {
   font-family: courier;
   font-size: 200px;
   color: white;
@@ -9,15 +9,15 @@ head{
   font-size:125%
   color:#6B0504
 }
-body{
+body {
   font-family: courier;
   font-size: 50%;
   color:black;
 }
-#Lunch-Header{
+#Lunch-Header {
   font-family: 'Karla', sans-serif;
 }
-#indexheading {
+#indexheading{
   color: white;
   font-size: 70px;
   font-family: 'alfa slab one';
