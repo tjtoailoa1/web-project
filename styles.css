@@ -1,23 +1,24 @@
-h1{
-  font-family: courier;
-  font-size: 200px;
-  color: white;
-}
-
-head{
+head {
   font-family:courier;
   font-size:125%
   color:#6B0504
 }
-body{
+body {
   font-family: courier;
   color:black;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 #home {
 =======
 
 #indexheading {
+>>>>>>> origin/master
+=======
+#Lunch-Header {
+  font-family: 'Karla', sans-serif;
+}
+h1 {
 >>>>>>> origin/master
   color: white;
   font-size: 70px;
