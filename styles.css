@@ -14,9 +14,6 @@ body{
   font-size: 50%;
   color:black;
 }
-#Lunch-Header{
-  font-family: 'Karla', sans-serif;
-}
 #home {
   color: white;
   font-size: 70px;
@@ -56,3 +53,17 @@ font-family: 'bree serif';
   display: block;
 }
 
+#Snack-Header,
+#Lunch-Header{
+  font-size: 100px;
+}
+
+#Snack-h2,
+#Lunch-h2{
+  font-size: 25px;
+}
+
+Snack-p,
+Lunch-p{
+  font-size: 20px;
+}
