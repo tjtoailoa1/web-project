@@ -47,20 +47,20 @@ body {
   font-family: courier;
   color:black;
 }
+
 #Snack-Header,
-#Lunch-Header{
+#Lunch-Header {
   font-size: 100px;
 }
 
 #Snack-h2,
-#Lunch-h2{
+#Lunch-h2 {
   font-size: 25px;
 }
 
 Snack-p,
-Lunch-p{
+Lunch-p {
   font-size: 20px;
->>>>>>> 0469cc553b0df2f1a85cb3ab46208cd40b2a7b70
 }
 
 .titles {
